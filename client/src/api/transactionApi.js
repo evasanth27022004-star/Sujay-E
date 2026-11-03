@@ -8,7 +8,7 @@ export const transactionApi = {
   deleteTransaction: (id) => axiosClient.delete(`/transactions/${id}`),
   getExportUrl: (params = {}) => {
     const query = new URLSearchParams(params).toString();
-    const baseUrl = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+    const baseUrl = import.meta.env.VITE_API_URL || (import.meta.env.PROD ? '/api' : 'http://localhost:5000/api');
     return `${baseUrl}/transactions/export?${query}`;
   },
 };
