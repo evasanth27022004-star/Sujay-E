@@ -1,4 +1,4 @@
-import express from 'express';
+﻿import express from 'express';
 import cors from 'cors';
 import helmet from 'helmet';
 import cookieParser from 'cookie-parser';
@@ -88,6 +88,18 @@ app.get('/api/health', (req, res) => {
     version: '1.0.0',
     app: 'FinFlow REST API',
   });
+});
+
+// Database connection guard — return 503 immediately if DB not connected
+app.use('/api/auth', (req, res, next) => {
+  const dbStatus = getDbStatus();
+  if (!dbStatus.connected) {
+    return res.status(503).json({
+      success: false,
+      message: 'Database not connected. Please add MONGODB_URI in Render environment settings and redeploy.',
+    });
+  }
+  next();
 });
 
 // Mount API routes
