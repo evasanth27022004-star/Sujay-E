@@ -3,6 +3,7 @@
 <div align="center">
 
 ![FinFlow Banner](https://img.shields.io/badge/FinFlow-Finance%20Platform-9A384F?style=for-the-badge&logo=cashapp&logoColor=white)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)](https://fineflow-finance.onrender.com/)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![Node Version](https://img.shields.io/badge/Node.js-v18%2B-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
@@ -12,7 +13,9 @@
 
 **An enterprise-grade, luxury-aesthetic personal finance, budget tracking, and wealth architecture platform.**
 
-[Features](#-key-features) • [Tech Stack](#-languages--tools-used) • [Architecture](#-system-architecture) • [Getting Started](#-step-by-step-setup-guide) • [API Reference](#-api-endpoints-reference) • [Security](#-security--privacy-architecture)
+🌐 **Live Deployment:** [https://fineflow-finance.onrender.com/](https://fineflow-finance.onrender.com/)
+
+[Live Demo](https://fineflow-finance.onrender.com/) • [Features](#-key-features) • [Tech Stack](#-languages--tools-used) • [Architecture](#-system-architecture) • [Getting Started](#-step-by-step-setup-guide) • [API Reference](#-api-endpoints-reference) • [Security](#-security--privacy-architecture)
 
 </div>
 
@@ -191,9 +194,11 @@ npm run dev
 ```
 
 Your app will be live and accessible at:
-- **Client Web App:** [http://localhost:5173](http://localhost:5173)
-- **Backend API:** [http://localhost:5000](http://localhost:5000)
-- **API Health Check:** [http://localhost:5000/api/health](http://localhost:5000/api/health)
+- **Live Production App:** [https://fineflow-finance.onrender.com/](https://fineflow-finance.onrender.com/)
+- **Live Health Check:** [https://fineflow-finance.onrender.com/api/health](https://fineflow-finance.onrender.com/api/health)
+- **Client Web App (Local):** [http://localhost:5173](http://localhost:5173)
+- **Backend API (Local):** [http://localhost:5000](http://localhost:5000)
+- **API Health Check (Local):** [http://localhost:5000/api/health](http://localhost:5000/api/health)
 
 ---
 
