@@ -15,9 +15,41 @@
 
 🌐 **Live Deployment:** [https://fineflow-finance.onrender.com/](https://fineflow-finance.onrender.com/)
 
-[Live Demo](https://fineflow-finance.onrender.com/) • [Features](#-key-features) • [Tech Stack](#-languages--tools-used) • [Architecture](#-system-architecture) • [Getting Started](#-step-by-step-setup-guide) • [API Reference](#-api-endpoints-reference) • [Security](#-security--privacy-architecture)
+[Live Demo](https://fineflow-finance.onrender.com/) • [Screenshots](#-application-preview) • [Features](#-key-features) • [Tech Stack](#-languages--tools-used) • [Architecture](#-system-architecture) • [Getting Started](#-step-by-step-setup-guide) • [API Reference](#-api-endpoints-reference) • [Presentation](docs/FinFlow_Project_Presentation.pptx)
 
 </div>
+
+---
+
+## 📸 Application Preview
+
+Experience FinFlow's executive interface across its core financial engines:
+
+### 1. Executive Wealth Dashboard
+Real-time net worth calculation, monthly cash inflow/outflow velocity meters, core savings rate gauge, volumetric cash velocity curves, and expenditure anatomy donut chart.
+
+![Executive Wealth Dashboard](docs/screenshots/02-executive-dashboard.jpg)
+
+---
+
+### 2. Financial Ledger & Transactions
+Search, filter, paginate, and audit incoming and outgoing funds with instant categorization, status tracking, and one-click CSV ledger export.
+
+![Financial Ledger and Transactions](docs/screenshots/03-financial-ledger.jpg)
+
+---
+
+### 3. Financial Analytics & Velocity
+Capital accumulation trajectory analysis, core savings rate benchmarking, dynamic burn rate calculation, and financial runway estimations.
+
+![Financial Analytics and Velocity](docs/screenshots/04-financial-analytics.jpg)
+
+---
+
+### 4. Secure Authentication & Session Access
+Stateless JWT-authenticated access with Bcrypt salted hashing, HttpOnly session cookies, and multi-tenant security boundary enforcement.
+
+![FinFlow Sign-In Portal](docs/screenshots/01-login-screen.png)
 
 ---
 
@@ -251,7 +283,11 @@ Sujay-E/
 ├── .gitattributes              # GitHub Linguist language configurations
 ├── .gitignore                  # Protection against committing secrets & dependencies
 ├── README.md                   # Complete architectural documentation
+├── render.yaml                 # Production deployment blueprint for Render
 ├── package.json                # Monorepo orchestration scripts (concurrently)
+├── docs/                       # Project artifacts and visual assets
+│   ├── FinFlow_Project_Presentation.pptx # Project overview presentation (16:9)
+│   └── screenshots/            # High-resolution application preview captures
 ├── scripts/
 │   └── seedDemoData.js         # Cloud database seeder with realistic financial history
 │
