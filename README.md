@@ -15,7 +15,7 @@
 
 🌐 **Live Deployment:** [https://fineflow-finance.onrender.com/](https://fineflow-finance.onrender.com/)
 
-[Live Demo](https://fineflow-finance.onrender.com/) • [Screenshots](#-application-preview) • [Features](#-key-features) • [Tech Stack](#-languages--tools-used) • [Architecture](#-system-architecture) • [Getting Started](#-step-by-step-setup-guide) • [API Reference](#-api-endpoints-reference) • [Report (DOCX)](docs/FinFlow_Project_Report.docx) • [Presentation (PPTX)](docs/FinFlow_Project_Presentation.pptx)
+[Live Demo](https://fineflow-finance.onrender.com/) • [Screenshots](#-application-preview) • [Features](#-key-features) • [Tech Stack](#-languages--tools-used) • [Architecture](#-system-architecture) • [Getting Started](#-step-by-step-setup-guide) • [API Reference](#-api-endpoints-reference) • [Report (DOCX)](docs/FinFlow_Project_Report.docx)
 
 </div>
 
@@ -287,7 +287,6 @@ Sujay-E/
 ├── package.json                # Monorepo orchestration scripts (concurrently)
 ├── docs/                       # Project artifacts and visual assets
 │   ├── FinFlow_Project_Report.docx       # Complete academic project report (Word DOCX)
-│   ├── FinFlow_Project_Presentation.pptx # Project overview presentation (16:9)
 │   └── screenshots/            # High-resolution application preview captures
 ├── scripts/
 │   └── seedDemoData.js         # Cloud database seeder with realistic financial history
